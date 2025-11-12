@@ -1,0 +1,56 @@
+/* Container Style */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Card Style */
+  .card {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Input Style */
+  input {
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Style */
+  button {
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  /* Edit task styling */
+  li.editing {
+    background-color: #f8f9fa;
+  }
+  
+  /* For list items, make them look more spacious */
+  ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Task Edit Input */
+  input[type="text"] {
+    max-width: 400px;
+  }
+
+/* Strikethrough style for completed tasks */
+.text-decoration-line-through {
+    text-decoration: line-through;
+    color: gray;  /* Optional: Change color of completed tasks */
+  }
+  
+  /* Style for completed checkbox */
+  input[type="checkbox"]:checked {
+    background-color: #28a745;  /* Green color when checked */
+    border-color: #28a745;
+  }
+
+
+  
+  
+  
